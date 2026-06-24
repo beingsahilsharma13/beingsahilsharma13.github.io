@@ -173,7 +173,7 @@
   .node-body li::before{content:'▹';position:absolute;left:0;color:var(--violet)}
 
   /* ── projects ── */
-  .proj-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .proj-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:22px}
   @media(max-width:820px){.proj-grid{grid-template-columns:1fr}}
   .proj{padding:0;overflow:hidden;cursor:default;transition:transform .3s cubic-bezier(.2,.8,.2,1),box-shadow .3s;
     transform-style:preserve-3d}
@@ -396,7 +396,7 @@
           <span class="chip">Kafka</span><span class="chip">PostgreSQL</span><span class="chip">Redis</span>
         </div>
         <div class="proj-links">
-          <a href="https://github.com/beingsahilsharma13/fintech-transaction-system" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> View Source</a>
+          <a href="https://github.com/beingsahilsharma13/loan-management-microservices" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> View Source</a>
         </div>
       </div>
     </div>
@@ -431,7 +431,7 @@
           <span class="chip">BCrypt</span><span class="chip">H2</span>
         </div>
         <div class="proj-links">
-          <a href="https://github.com/beingsahilsharma13" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> View on GitHub</a>
+          <a href="https://github.com/beingsahilsharma13/jwt-auth-springboot" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> View on GitHub</a>
         </div>
       </div>
     </div>
@@ -464,46 +464,7 @@
           <span class="chip">H2</span><span class="chip">Lombok</span>
         </div>
         <div class="proj-links">
-          <a href="https://github.com/beingsahilsharma13" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> View on GitHub</a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Scalable API Platform (architecture study) -->
-    <div class="glass proj tilt reveal">
-      <div class="proj-viz">
-        <svg width="100%" height="100%" viewBox="0 0 400 188" preserveAspectRatio="xMidYMid meet">
-          <rect class="arch-node" x="24" y="78" width="66" height="36"/>
-          <text class="arch-label" x="57" y="100" text-anchor="middle">Client</text>
-          <rect class="arch-node" x="138" y="78" width="74" height="36"/>
-          <text class="arch-label" x="175" y="100" text-anchor="middle">Gateway</text>
-          <rect class="arch-node" x="262" y="44" width="58" height="30"/>
-          <text class="arch-label" x="291" y="63" text-anchor="middle" font-size="9">Auth</text>
-          <rect class="arch-node" x="262" y="82" width="58" height="30"/>
-          <text class="arch-label" x="291" y="101" text-anchor="middle" font-size="9">Service</text>
-          <rect class="arch-node" x="262" y="120" width="58" height="30"/>
-          <text class="arch-label" x="291" y="139" text-anchor="middle" font-size="9">Cache</text>
-          <rect class="arch-node" x="344" y="82" width="44" height="30"/>
-          <text class="arch-label" x="366" y="101" text-anchor="middle" font-size="9">DB</text>
-          <path class="flow" d="M90 96 L138 96"/>
-          <path class="flow v" d="M212 92 L262 60"/>
-          <path class="flow v" d="M212 96 L262 97"/>
-          <path class="flow v" d="M212 100 L262 134"/>
-          <path class="flow" d="M320 97 L344 97"/>
-          <circle class="dot-anim" cx="0" cy="0" r="2.5"><animateMotion dur="1.7s" repeatCount="indefinite" path="M90 96 L138 96"/></circle>
-          <circle class="dot-anim" cx="0" cy="0" r="2.5" fill="#7C5CFF"><animateMotion dur="2s" repeatCount="indefinite" path="M212 96 L262 97"/></circle>
-        </svg>
-      </div>
-      <div class="proj-body">
-        <div class="proj-tag">Microservices · Architecture study</div>
-        <h3>Scalable API Platform</h3>
-        <p>A clean microservice layout — gateway routing, isolated auth, service and cache tiers, and a database per concern. Designed to scale each piece independently.</p>
-        <div class="chips">
-          <span class="chip">Spring Cloud</span><span class="chip">Redis</span>
-          <span class="chip">PostgreSQL</span><span class="chip">AWS</span>
-        </div>
-        <div class="proj-links">
-          <a href="https://github.com/beingsahilsharma13" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> Code</a>
+          <a href="https://github.com/beingsahilsharma13/employee-crud-api" target="_blank" rel="noopener"><i class="ti ti-brand-github"></i> View on GitHub</a>
         </div>
       </div>
     </div>
